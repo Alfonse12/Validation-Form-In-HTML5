@@ -1,0 +1,59 @@
+body{
+	 font  : 21px sans-serif;
+}
+.container{
+	width:450px;
+	height:100%;
+	background-color:#ecf7fc;
+	margin: 0 auto;
+	padding:20px;
+	background-color:lightblue;
+	border: 3px solid #3b3b3b;
+}
+
+#createUser{
+	margin: 50px 0 0 200px;
+	border-radius: 3em;
+	color: black;
+	width:150px;
+	height:30px;
+}
+
+input{
+	margin:10px 0px 20px 100px;
+	width:250px;
+}
+
+label{
+	margin:50px 0px 20px 100px;
+	color:black;
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-color:lightblue;
+		font  : 21px sans-serif;
+    }
+	input{
+		margin:0 0 0 0px;
+		width:100%;
+	}
+	label{
+		margin:50px 0px 20px 0px;
+		color:black;
+	}
+	#createUser{
+	margin: 50px 0 0 100px;
+	border-radius: 3em;
+	color: black;
+	width:120px;
+	height:30px;
+  }
+  .container{
+	width:85%;
+	background-color:#ecf7fc;
+	margin: 0 auto;
+	border: 3px solid #3b3b3b;
+	height:100%;
+  }
+}
